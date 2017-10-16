@@ -11,6 +11,9 @@ var app = {
   receivedEvent: function(id) {
     var parentElement = document.getElementById(id);
 
-    $(".editme").text("I have been changed");
+    alert("Device is Ready");
+    window.localStorage.setItem("Key1", "Value1");
+    window.localStorage.setItem("name", "gino");
+    window.sessionStorage.setItem("age", "21");
   }
 }
