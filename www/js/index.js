@@ -6,7 +6,7 @@ var app = {
     document.addEventListener('deviceready', this.onDeviceReady, false);
   },
   onDeviceReady: function() {
-    app.recivedEvent('deviceready');
+    app.receivedEvent('deviceready');
   },
   receivedEvent: function(id) {
     var parentElement = document.getElementById(id);
