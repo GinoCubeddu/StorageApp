@@ -2,3 +2,8 @@ main {
   margin-top: 25px;
   font-size: 2em;
 }
+
+h1 {
+  color: red;
+  font-size: 30px;
+}
