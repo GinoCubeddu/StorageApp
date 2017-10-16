@@ -15,11 +15,11 @@ var app = {
     window.localStorage.setItem("name", "gino");
     window.sessionStorage.setItem("age", "21");
 
-    $("localStorageCount").text(
+    $("#localStorageCount").text(
       "I currently have " + window.localStorage.length + "items in my Local storage"
     );
 
-    $("sessionStorageCount").text(
+    $("#sessionStorageCount").text(
       "I currently have " + window.sessionStorage.length + "items in my Session storage"
     );
   }
